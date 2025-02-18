@@ -73,7 +73,7 @@ fun MainScreen(viewModel: ViewModel) {
 
         Button(
             onClick = { viewModel.fetchRandomDog() },
-            shape = RoundedCornerShape(50), // Rounded button
+            shape = RoundedCornerShape(50),
             modifier = Modifier
                 .height(50.dp)
                 .width(200.dp)
